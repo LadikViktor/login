@@ -3,9 +3,9 @@
 namespace Core;
 
 use Core\Config;
-use TexLab\MyDB\DB;
-use TexLab\MyDB\DbEntity;
-use TexLab\MyDB\QueryBuilderTrait;
+use TexLab\MyDb\DB;
+use TexLab\MyDb\DbEntity;
+
 
 class Login
 {
