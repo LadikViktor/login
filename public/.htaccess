@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^.*$ /public/$0 [QSA,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ / [QSA,L]
